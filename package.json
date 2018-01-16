@@ -11,7 +11,8 @@
     "react-router": "^3.2.0",
     "react-router-dom": "^4.2.2",
     "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.8.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
