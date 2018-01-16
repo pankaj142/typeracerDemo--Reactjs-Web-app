@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 6
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm test
+  - npm run build
+  - npm run lint
+
+before_script:
+  # Fix a build problem: https://github.com/sass/node-sass/issues/1918
+  npm rebuild node-sass
